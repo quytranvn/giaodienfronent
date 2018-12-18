@@ -1,0 +1,178 @@
+
+
+/*css trang con tác*/
+.logomenu{
+	line-height: 80px;
+}
+ .logo, #loul {
+	display: inline-block;
+	padding-left: 850px;
+}
+.logomenu ul li{
+	display: inline-block;
+	color: gray;
+}
+
+.logomenu .logo{
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding-left: 150px;
+	font-size: 20px;
+}
+
+.tabconten{
+	padding: 20px;
+	margin-bottom: 100px;
+	margin-top: 100px;
+}
+.tabconten img{
+	width: 365;
+	height: 190px;
+	position: relative;
+	z-index: 1;
+}
+.tabconten #tabbtn{
+    margin-top: 167px;
+    position: absolute;
+    margin-left:208px;
+    left: 20%;
+    z-index: 10;
+	color: white;
+	background-color: black ;
+	border: 1px solid black;
+	font-size: 13px;
+}
+.tabconten #tabbtn:hover{
+	background:none;
+	color: black;
+}
+.tabconten .minihe{
+	font-weight: bold;
+}
+.tabconten .mininote{
+	font-size: 10px;
+	color: gray;
+}
+.tabconten .mininote1{
+	color: gray;
+}
+
+
+.tabline{
+	margin-top: 50px;
+	margin-bottom: : 50px;
+	width: 100%;height: 420px;
+	background-color: #000;
+	text-align: center;
+	color: #FFF;
+}
+ .tabline #tabtex{
+	padding-top: 120px;
+	font-size: 30px;
+
+ }
+.tabline #tabsub{
+	background: none;
+	height: 40px;
+	width:300px;
+	text-transform: uppercase;
+}
+.tabline #tabsub:hover{
+	background: #FFF;
+	color: black;
+}
+
+.tabform {
+	margin-top:50px;	
+}
+.tabform .contentleft{
+	color: gray;
+	padding: 20px;
+}
+.tabform .contentright {
+	padding: 20px;
+}
+.contentright #senbtn{
+	border-radius: 0;
+	background: black;
+	color: #FFF;
+
+}
+.contentright #senbtn:hover {
+	background: none;
+	color: #000;
+}
+
+
+
+.bot2 {
+	text-align: center;
+	margin-top:20px;	
+	margin-bottom:40px;
+}
+.bot2 .fa{
+	font-size: 60px;
+} 
+.bot2 .bot2text{
+	color: gray;
+}
+
+
+
+.menubot{
+	width: 100%;
+	height:250px;
+	background: gray;opacity: 0.8;	
+/*	margin-top:250px;*/
+	text-align: center;
+	font-size: 12px;;
+}
+
+	.menubot .bt1tit{
+		font-weight: bold;
+	}
+	.menubot ul li {
+		list-style: none;
+		float: left;
+	}
+	.menubot .mnbt2 ul{
+		padding-top: 40px;
+	}
+	.menubot .mnbt2 ul li{
+		padding-right: 30px;
+		font-weight: bold;
+		list-style: none;
+	}
+	.menubot .mnbt2 .fa{
+		padding-top: 40px;
+		padding-right: 50px;
+		font-size: 25px;
+	}
+
+
+
+
+
+
+.foot{
+	background: black;
+	width: 100%;
+	height: 50px;
+}
+.foot .texttt{
+	padding-left: 30px;
+	line-height: 50px;
+}
+.foot img{
+	float: right;
+	width: 136px;
+	height: 45px;
+	margin:0px;
+	padding-bottom: 19px;
+}
+
+
+
+
+
+

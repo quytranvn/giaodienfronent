@@ -1,0 +1,361 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+	body {
+		font-family: 'Open Sans', 'sans-serif';
+	}
+	.mega-dropdown {
+		position: static !important;
+	}
+	.mega-dropdown-menu {
+		padding: 20px 0px;
+		width: 100%;
+		box-shadow: none;
+		-webkit-box-shadow: none;
+	}
+	.mega-dropdown-menu > li > ul {
+		padding: 0;
+		margin: 0;
+	}
+	.mega-dropdown-menu > li > ul > li {
+		list-style: none;
+	}
+	.mega-dropdown-menu > li > ul > li > a {
+		display: block;
+		color: #222;
+		padding: 3px 5px;
+	}
+	.mega-dropdown-menu > li ul > li > a:hover,
+	.mega-dropdown-menu > li ul > li > a:focus {
+		text-decoration: none;
+	}
+	.mega-dropdown-menu .dropdown-header {
+		font-size: 18px;
+		color: #ff3546;
+		padding: 5px 60px 5px 5px;
+		line-height: 30px;
+	}
+
+	.carousel-control {
+		width: 30px;
+		height: 30px;
+		top: -35px;
+
+	}
+	.left.carousel-control {
+		right: 30px;
+		left: inherit;
+	}
+	.carousel-control .glyphicon-chevron-left, 
+	.carousel-control .glyphicon-chevron-right {
+		font-size: 12px;
+		background-color: #fff;
+		line-height: 30px;
+		text-shadow: none;
+		color: #333;
+		border: 1px solid #ddd;
+	}
+
+
+
+	/*css slide*/
+
+	.item h1{
+		color: white; 
+		text-align: center;
+		font-size:  110px;
+		font-family: bold;
+		font-family: sans-serif;
+
+	}
+	.item p{
+		color: white; 
+		text-align: center;
+		padding-left: 2px; 
+		padding-right: 2px;
+		letter-spacing: 10px;
+		font-family: bold;	
+		font-family :sans-serif;
+		text-transform: uppercase;
+		font-size: 10px;
+		clear: both;
+	}
+
+	.item h1,p{
+
+		transform:translateY(-550px);
+	}
+	img {
+		vertical-align: middle;
+	}
+
+	/* On smaller screens, decrease text size */
+	@media only screen and (max-width: 300px) {
+		.text {font-size: 11px}
+	}
+
+	/*//css row1*/
+
+	.row2{
+	text-align: center;
+	}
+	.row2 h3{
+		font-size: 18px;
+		color: gray;
+	}
+	.row2 h1{
+		font-weight: bold;
+		font-size: 40px;
+	}
+	.row2 h5{
+		font-size: 18px;
+		color: gray;
+	}
+	.gird>div>.element{
+		position: none;
+	}
+	.menu1{
+		width:100%;
+		height: 80px;
+		background: yellow;
+	}
+	.menu1 ul li{
+		display: inline-block;
+		line-height: 80px;
+		padding-left: 20px;
+		padding-right:20px;
+
+	}
+		.menu1 ul{
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	/*so tu tang css*/
+	.feel{
+		text-align: center;
+		width: 100%;
+		height: 330px;
+		background-image: url('image/slider-img45.jpg');
+
+	}
+
+	#shiva
+	{
+		display: inline-block;
+		padding-left: 50px;
+		padding-right: 50px;
+		text-align: center;
+	}
+	.count
+	{
+	  line-height: 100px;
+	  color:black;
+	  margin-left:15px;
+	  font-size:25px;
+	}
+
+	.linker
+	{
+	  font-size : 20px;
+	  font-color: black;
+	}
+	#shiva .fa{
+		margin-top: 70px;
+		font-size: 70px;
+	}
+
+
+
+
+
+	#top{
+		text-align: center;
+		font-weight: bold;
+		font-size: 20px;
+		text-transform: uppercase;
+
+	}
+
+	.wow>div{
+		display: inline-block;
+		padding: 15px;
+	}
+
+	.boxx{
+		padding-left: 20px;
+		width: 33%
+	}
+	.boxx #text{
+		padding-left: 80px;
+		width: 410px;
+	}
+	.boxx .fa{
+		font-size: 60px;
+		padding-left: 10px;
+	}
+	#text h5{
+		text-transform: uppercase;
+
+	}
+
+
+	.row3{
+	text-align: center;
+	}
+	.row3 h1{
+		font-weight: bold;
+		font-size: 40px;
+	}
+	.row3 h5{
+		font-size: 18px;
+		color: gray;
+	}
+
+
+	.locanh{
+		text-align: center;
+		padding-bottom: 10px;
+	}
+	.litter{ 
+    	padding-left: 237px;
+	}
+	.litter .num{
+		font-size: 40px;
+		color: yellow;
+	}
+	.litter .block{
+		padding-left: 20px;
+	}
+
+
+
+	.wow1{
+		width: 100;
+		height: 80px;
+		background-color: yellow;
+		margin-top: 50px;
+	}
+	.wow1 .left{
+		padding-left:150px;
+	}
+	.wow1 .right{
+		padding-left:150px;
+	}
+	.wow1 div{
+		display: inline-block;
+		line-height: 80px;
+		padding-left: 10px;
+	}
+	.wow1 #bag{
+		font-size: 40px;
+		padding-top: 10px;
+	}
+	.wow1 #di{
+		text-transform: uppercase;
+		font-weight: bold;
+	}
+	.wow1 .btn{
+		width: 130px;
+    height: 36px;
+    border: 1px solid black
+		
+	}
+	.wow1 #btn1{
+	background: black;
+	color: white;
+	}
+	.wow1 #btn1:hover{
+		background: yellow;
+		color: black;
+	}
+
+	.wow1 #btn2{
+		background:yellow;
+		color: black;
+	}
+	.wow1 #btn2:hover{
+		background: black;
+		color: white;
+	}
+
+
+
+
+	/*//css btn*/
+.button{
+	border: none;
+	background: none;
+	padding-bottom: 40px;
+
+}
+.button:hover{
+	text-decoration: underline;
+}
+.locanh{
+	padding-bottom: 50px;
+}
+
+.locanh .boder{
+	height: 500px;
+	width: auto;
+	clear: both;
+}
+.boder{
+	width: 100%;
+}
+.boder img{
+	width: 341px;height: 250px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.boder .img{
+height: 500px;
+}
+.litter{
+	padding-bottom: 50px;
+}
+
+
+
+
+	#top2{
+		text-align: center;
+		font-weight: bold;
+		font-size: 20px;
+		text-transform: uppercase;
+
+	}
+	.nav-tabs>li{
+		padding-right: 50px;
+		margin-bottom: 50px;
+		float: left;
+	}
+	.nav-tabs .fa , #home .fa1{
+		font-size: 70px;
+	}
+	.tab-content .box3{
+		text-align: center;
+		width: 600px;
+		height:600px;
+		border:4px solid gray;
+	}
+	.tab-content .box3 span{
+		font-weight: bold;
+		margin-top: 30px;
+		font-size: 40px;
+	}
+
+
+
+
+	.row4{
+		margin-top: 50px;
+	text-align: center;
+	}
+	.row4 h1{
+		font-weight: bold;
+		font-size: 40px;
+	}
+	.row4 h5{
+		font-size: 18px;
+		color: gray;
+	}
